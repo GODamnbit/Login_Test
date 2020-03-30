@@ -1,22 +1,23 @@
-ÔËĞĞ»·¾³£ºpython 3.7
+è¿è¡Œç¯å¢ƒï¼špython 3.7
 
-ÒÀÀµ»·¾³°²×°£º
-ÃüÁî´°¿ÚÇĞ»»µ½ÏîÄ¿Ä¿Â¼£¬Ö´ĞĞpip install -r requirements.txt
+ä¾èµ–ç¯å¢ƒå®‰è£…ï¼š
+å‘½ä»¤çª—å£åˆ‡æ¢åˆ°é¡¹ç›®ç›®å½•ï¼Œæ‰§è¡Œpip install -r requirements.txt
 
-ÏîÄ¿Ö´ĞĞ£º
-ÃüÁî´°ÏÂÖ´ĞĞpython app.py
+é¡¹ç›®æ‰§è¡Œï¼š
+å‘½ä»¤çª—ä¸‹æ‰§è¡Œpython app.py
 
-½Ó¿Ú²âÊÔ£º
-ÏîÄ¿ÔËĞĞºóÊ¹ÓÃpostman²âÊÔ£º
-1. µÇÂ¼²âÊÔ£ºPOST  127.0.0.1£º5000/login
-	header£ºjson£¬¼üÖµ¶Ôphone¡¢password
-	£¨ex£ºphone£º123£¬password£º123£©
+æ¥å£æµ‹è¯•ï¼š
+é¡¹ç›®è¿è¡Œåä½¿ç”¨postmanæµ‹è¯•ï¼š
+1. ç™»å½•æµ‹è¯•ï¼šPOST  127.0.0.1ï¼š5000/login
+	headerï¼šjsonï¼Œé”®å€¼å¯¹phoneã€password
+	ï¼ˆexï¼šphoneï¼š123ï¼Œpasswordï¼š123ï¼‰
 
-2. ×¢²á²âÊÔ£ºPOST  127.0.0.1:5000/add
-	header£ºjson£¬¼üÖµ¶Ôphone¡¢user_name¡¢(email)¡¢password¡¢(sex)
-	£¨ex£ºphone£º126£¬user_name£ºlala£¬password£ºw123£¬sex£ºÄĞ£©
-	ps£ºÀ¨ºÅÄÚ²ÎÊı¿ÉÎª¿Õ£¬sex£ºÄĞ/Å®
+2. æ³¨å†Œæµ‹è¯•ï¼šPOST  127.0.0.1:5000/add
+	headerï¼šjsonï¼Œé”®å€¼å¯¹phoneã€user_nameã€(email)ã€passwordã€(sex)
+	ï¼ˆexï¼šphoneï¼š126ï¼Œuser_nameï¼šlalaï¼Œpasswordï¼šw123ï¼Œsexï¼šç”·ï¼‰
+	psï¼šæ‹¬å·å†…å‚æ•°å¯ä¸ºç©ºï¼Œsexï¼šç”·/å¥³
 
-3. ·¢²¼²âÊÔ£ºPOST  127.0.0.1£º5000/station
-	header£ºjson£¬¼üÖµ¶Ôstation_id
-	£¨ex£ºstation_id£º101£©
+3. å‘å¸ƒæµ‹è¯•ï¼šPOST  127.0.0.1ï¼š5000/station
+	headerï¼šjsonï¼Œé”®å€¼å¯¹station_id
+	ï¼ˆexï¼šstation_idï¼š101ï¼‰
+	psï¼šè¯¥æ–‡ä»¶å«å›¾ç‰‡å±•ç¤º
